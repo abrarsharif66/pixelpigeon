@@ -1,0 +1,5 @@
+streamlit
+pyaml
+pickle
+opencv-python==4.7.0.72
+face_recognition==1.3.0
