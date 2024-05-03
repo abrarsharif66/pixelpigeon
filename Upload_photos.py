@@ -191,7 +191,7 @@ if no_of_files > 0:
        shutil.copy(zip_file_name, output_folder)
        recipient_email=id2
        sendmail(recipient_email,zip_file_name)
-       #shutil.rmtree(zip_file_name)
+       shutil.rmtree(zip_file_name)
       #this part clears the list for new matched names 
       namel.clear()
       listid.clear()
